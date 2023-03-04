@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,a[i],b[j],h,n,count=0;
+    cout<<"enter the height of a and b:";
+    cin>>h;
+    cout<<"enter the no of people in the line";
+    cin>>n;
+    cout<<"enter the heigth of each person in the line";
+    for(i=0;i<n;i++)
+    {
+        cin>>a[i];
+    }
+    for(i=0;i<n;i++)
+    {
+        
+            if(h>a[i])
+            {
+                count++;
+            }
+        cout<<"the minimum number of shoot is:: "<<count;
+    }
+}
