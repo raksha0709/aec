@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int tt,xx,yy,ans;
+	cin>>tt;
+	while(tt--)
+	{
+	    cin>>xx>>yy;
+	    ans=xx/yy;
+	    ans+=(xx%yy);
+	    cout<<ans<<endl;
+	}
+	
+	return 0;
+}
